@@ -15,12 +15,33 @@ The pattern is applied in situations in which many classes are related and the d
 
 Another good reason to use this pattern is an application which it has a client and it can not be exposed to an algorithm data structure. Besides that, when a class has many behaviors and uses various additional commands, the performance could be unsatisfactory, because there is a possibility of existing a lot of conditions, that can make the code slower. With the pattern could get off these conditions, creating new classes with these strategies, improving the performance.
 
+[code][strategy-code]
+
 ## Chain of Responsability
 
 Chain-of-responsibility pattern is a design pattern consisting of a source of command objects and a series of processing objects. Each processing object contains logic that defines the types of command objects that it can handle; the rest are passed to the next processing object in the chain. A mechanism also exists for adding new processing objects to the end of this chain. Thus, the chain of responsibility is an object oriented version of the if ... else if ... else if ....... else ... endif idiom, with the benefit that the condition–action blocks can be dynamically rearranged and reconfigured at runtime.
+
+[code][chain-of-responsability-code]
 
 ## Template Method
 
 The template method is a method in a superclass, usually an abstract superclass, and defines the skeleton of an operation in terms of a number of high-level steps. These steps are themselves implemented by additional helper methods in the same class as the template method.
 
 The helper methods may be either abstract methods, for which case subclasses are required to provide concrete implementations, or hook methods, which have empty bodies in the superclass. Subclasses can (but are not required to) customize the operation by overriding the hook methods. The intent of the template method is to define the overall structure of the operation, while allowing subclasses to refine, or redefine, certain steps.
+
+[code][template-method-code]
+
+## Decorator
+
+Decorator pattern allows behavior to be added to an individual object, dynamically, without affecting the behavior of other objects from the same class. The decorator pattern is structurally nearly identical to the chain of responsibility pattern, the difference being that in a chain of responsibility, exactly one of the classes handles the request, while for the decorator, all classes handle the request.
+
+[code][decorator-code]
+
+
+[chain-of-responsability-code]: https://github.com/josielborges/java-design-patterns/tree/master/src/br/com/josielborges/designpatterns/chainofresponsability
+
+[strategy-code]: https://github.com/josielborges/java-design-patterns/tree/master/src/br/com/josielborges/designpatterns/strategy
+
+[template-method-code]: https://github.com/josielborges/java-design-patterns/tree/master/src/br/com/josielborges/designpatterns/templatemethod
+
+[decorator-code]: https://github.com/josielborges/java-design-patterns/tree/master/src/br/com/josielborges/designpatterns/decorator
