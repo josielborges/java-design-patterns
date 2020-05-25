@@ -1,4 +1,4 @@
-package br.com.josielborges.designpatterns.templatemethod;
+package br.com.josielborges.designpatterns.templatemethod.example1;
 
 public class Item {
 

@@ -1,4 +1,4 @@
-package br.com.josielborges.designpatterns.templatemethod;
+package br.com.josielborges.designpatterns.templatemethod.example1;
 
 import java.util.ArrayList;
 import java.util.Collections;

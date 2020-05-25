@@ -1,10 +1,10 @@
-package br.com.josielborges.designpatterns.templatemethod;
+package br.com.josielborges.designpatterns.templatemethod.example1;
 
-public class IOP extends ConditionalTaxTemplate {
+public class IOPD extends ConditionalTaxTemplate {
 
     @Override
     protected boolean shouldUseMaxTax(Budget budget) {
-        return budget.getValue() > 800.0;
+        return budget.getItems().stream().anyMatch(item -> item.getValue() > 100);
     }
 
     @Override
