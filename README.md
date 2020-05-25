@@ -1,5 +1,5 @@
-# java-design-patterns
-JAVA Design Patterns training
+# Java Design Patterns
+JAVA Design Patterns training and cataloging.
 
 ## Strategy
 
@@ -14,3 +14,9 @@ Typically the strategy pattern stores a reference to some code in a data structu
 The pattern is applied in situations in which many classes are related and the difference between theirs is just the acting mode, so the Strategy will config a class that has many given known behaviors. Also it can be used when there is a need to change the algorithm, in other words, it can implement distinct codes that get the same objective, although it has certain situations that das more advantageous than others.
 
 Another good reason to use this pattern is an application which it has a client and it can not be exposed to an algorithm data structure. Besides that, when a class has many behaviors and uses various additional commands, the performance could be unsatisfactory, because there is a possibility of existing a lot of conditions, that can make the code slower. With the pattern could get off these conditions, creating new classes with these strategies, improving the performance.
+
+## Chain of Responsability
+
+Chain-of-responsibility pattern is a design pattern consisting of a source of command objects and a series of processing objects. Each processing object contains logic that defines the types of command objects that it can handle; the rest are passed to the next processing object in the chain. A mechanism also exists for adding new processing objects to the end of this chain. Thus, the chain of responsibility is an object oriented version of the if ... else if ... else if ....... else ... endif idiom, with the benefit that the condition–action blocks can be dynamically rearranged and reconfigured at runtime.
+
+

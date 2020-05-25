@@ -1,4 +1,4 @@
-package strategy.example2;
+package br.com.josielborges.designpatterns.strategy.example2;
 
 public class Budget {
 

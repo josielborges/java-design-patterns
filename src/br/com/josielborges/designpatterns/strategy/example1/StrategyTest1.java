@@ -1,6 +1,6 @@
-package strategy.example1;
+package br.com.josielborges.designpatterns.strategy.example1;
 
-public class Test {
+public class StrategyTest1 {
 
     public static void main(String[] args) {
         ICMS icms = new ICMS();

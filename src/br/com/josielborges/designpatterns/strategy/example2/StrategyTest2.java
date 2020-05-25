@@ -1,6 +1,6 @@
-package strategy.example2;
+package br.com.josielborges.designpatterns.strategy.example2;
 
-public class Test {
+public class StrategyTest2 {
 
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-package strategy.example1;
+package br.com.josielborges.designpatterns.strategy.example1;
 
 public interface Tax {
 
