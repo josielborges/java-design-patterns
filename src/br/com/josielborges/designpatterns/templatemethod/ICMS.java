@@ -1,4 +1,4 @@
-package br.com.josielborges.designpatterns.strategy.example1;
+package br.com.josielborges.designpatterns.templatemethod;
 
 public class ICMS implements Tax {
 
@@ -6,5 +6,4 @@ public class ICMS implements Tax {
     public double getValue(Budget budget) {
         return budget.getValue() * 0.1;
     }
-
 }
