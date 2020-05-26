@@ -45,6 +45,11 @@ The state pattern is used in computer programming to encapsulate varying behavio
 
 [code][state-code]
 
+## Builder
+
+The builder pattern is a design pattern designed to provide a flexible solution to various object creation problems in object-oriented programming. The intent of the Builder design pattern is to separate the construction of a complex object from its representation.
+
+[code][builder-code]
 
 [chain-of-responsability-code]: https://github.com/josielborges/java-design-patterns/tree/master/src/br/com/josielborges/designpatterns/chainofresponsability
 
@@ -55,3 +60,5 @@ The state pattern is used in computer programming to encapsulate varying behavio
 [decorator-code]: https://github.com/josielborges/java-design-patterns/tree/master/src/br/com/josielborges/designpatterns/decorator
 
 [state-code]: https://github.com/josielborges/java-design-patterns/tree/master/src/br/com/josielborges/designpatterns/state
+
+[builder-code]: https://github.com/josielborges/java-design-patterns/tree/master/src/br/com/josielborges/designpatterns/builder
