@@ -2,9 +2,9 @@
 
 JAVA Design Patterns training, testing and cataloging.
 
-This list all common Patterns and which situations they can be used. 
+This list some common Patterns and which situations they can be used. 
 
-It also an example, or examples, of implementations in JAVA language for each pattern.
+It also has an example, or examples, of implementations in JAVA language for each pattern.
 
 ## Strategy
 
