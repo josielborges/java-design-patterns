@@ -84,6 +84,16 @@ When the coupling of the class is increasing, or when there are many different a
 
 [code][observer-code]
 
+## Factory
+
+Factory is an object for creating other objects – formally a factory is a function or method that returns objects of a varying prototype or class from some method call, which is assumed to be "new".
+
+#### When to use?
+
+We use the Factory when we need to isolate the object creation process in a single location.
+
+[code][factory-code]
+
 [chain-of-responsability-code]: https://github.com/josielborges/java-design-patterns/tree/master/src/br/com/josielborges/designpatterns/chainofresponsability
 
 [strategy-code]: https://github.com/josielborges/java-design-patterns/tree/master/src/br/com/josielborges/designpatterns/strategy
@@ -97,3 +107,5 @@ When the coupling of the class is increasing, or when there are many different a
 [builder-code]: https://github.com/josielborges/java-design-patterns/tree/master/src/br/com/josielborges/designpatterns/builder
 
 [observer-code]: https://github.com/josielborges/java-design-patterns/tree/master/src/br/com/josielborges/designpatterns/observer
+
+[factory-code]: https://github.com/josielborges/java-design-patterns/tree/master/src/br/com/josielborges/designpatterns/factory
