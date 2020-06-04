@@ -92,6 +92,14 @@ Factory is an object for creating other objects – formally a factory is a func
 
 We use the Factory when we need to isolate the object creation process in a single location.
 
+## Flyweight
+
+A flyweight is an object that minimizes memory usage by sharing as much data as possible with other similar objects; it is a way to use objects in large numbers when a simple repeated representation would use an unacceptable amount of memory. Often some parts of the object state can be shared, and it is common practice to hold them in external data structures and pass them to the objects temporarily when they are used.
+
+#### When to use?
+
+It is used when we need many instances of the same object and is needed to save memory.
+
 [code][factory-code]
 
 [chain-of-responsability-code]: https://github.com/josielborges/java-design-patterns/tree/master/src/br/com/josielborges/designpatterns/chainofresponsability
